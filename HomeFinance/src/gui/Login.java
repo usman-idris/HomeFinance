@@ -18,7 +18,14 @@ import javax.swing.JTextField;
 public class Login extends JFrame implements ActionListener {
 	JPanel loginPanel;
 	JTextField txtUserName, txtPassword;
-	JLabel lblUserName, lblPassword;
+	JLabel lblUserName, lblPassword, lblWelcome;
+	
+	public Login() {
+		this.setTitle("Home Finance"); 
+		this.setSize(1400, 800);
+		this.setLocationRelativeTo(null); 
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
 	
 
 	@Override
