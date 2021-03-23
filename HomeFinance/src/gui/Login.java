@@ -27,6 +27,10 @@ public class Login extends JFrame implements ActionListener {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 	
+	public void showWindow() {
+		this.setVisible(true);
+	}
+	
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
